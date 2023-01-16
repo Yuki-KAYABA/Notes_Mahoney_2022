@@ -1,0 +1,53 @@
+---
+title: "Notes: Mahoney (2022) Principles for Combining Descriptive and Model-Based Analysis in Applied Microeconomics Research"
+author: "Yuki KAYABA"
+date: "1/15/2023"
+site: bookdown::bookdown_site
+output:
+  bookdown::gitbook: default
+#output_dir: docs
+#bookdown::gitbook: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(bookdown)
+```
+
+# Summary of the Paper
+
+（ひとことメモ）
+
+- 実証ミクロ論文の書き方について。
+1. 記述統計でデータをしっかり見せる
+2. 記述的分析でざっとエビデンスを示す
+3. 何をモデルにし何をしないかをデータから示す
+4. モデルを用いてより深い洞察を得る
+5. 反実仮想は2に結びつける
+
+- In this article, I offer guidance on how to combine descriptive and model-based empirical analysis within a paper
+- In doing so, we use the term as follows:
+  - **Descriptive Analysis**: empirical analysis whose primary goal is to summarize patterns in the data
+  - **Model-based Analysis**: empirical analysis whose goal is to estimate an economic parameter, conduct a counterfactual, or make a statement about welfare
+
+**Arguments of This Article**
+
+1. It is important to construct a paper so that there is a tight link between the descriptive analysis and the bottom-line deliverable of the model-based analysis
+2. You should clearly articulate the value-added of the model by explaining what you can learn from the model that cannot be learned from the descriptive analysis alone
+3. You should use the descriptive analysis to guide your choices of what to model and what not to model
+4. You should choose parameters or counterfactuals that are informed by the identifying variation in the data and use descriptive analysis to help the reader form a prior belief over the parameter estimates and counterfactuals that follow.
+
+## Five Principles
+
+### Show Your Variation with Descriptive Analysis
+
+- Many applied microeconomics papers are built around an empirical approach (sometimes referred to as a research design)
+- For this type of paper, a primary goal of the descriptive analysis is to “make the case” for the identifying variation that drives the rest of the empirical analysis
+- Broadly, your aim should be to explain where your variation comes from, show that it is powerful, and show that it is valid
+
+### Use the Descriptive Analysis to Provide Preliminary Evidence
+
+- You should also use the descriptive analysis to provide preliminary or partial evidence for the paper’s conclusions, while recognizing that the bottom-line conclusions will require a quantitative model
+
+
+
